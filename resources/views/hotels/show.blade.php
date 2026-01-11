@@ -6,7 +6,7 @@
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
         @if($hotel->image)
-            <img src="{{ asset('storage/' . $hotel->image) }}" alt="{{ $hotel->name }}" class="w-full h-96 object-cover">
+            <img src="{{ asset($hotel->image) }}" alt="{{ $hotel->name }}" class="w-full h-96 object-cover">
         @else
             <div class="w-full h-96 bg-gray-300 flex items-center justify-center text-white text-9xl">
                 X

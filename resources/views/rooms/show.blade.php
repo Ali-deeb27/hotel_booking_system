@@ -8,7 +8,7 @@
         <div class="md:flex">
             <div class="md:w-1/2">
                 @if($room->image)
-                    <img src="{{ asset('storage/' . $room->image) }}" alt="{{ $room->room_number }}" class="w-full h-full object-cover">
+                    <img src="{{ asset( $room->image) }}" alt="{{ $room->room_number }}" class="w-full h-full object-cover">
                 @else
                     <div class="w-full h-96 bg-gray-300 flex items-center justify-center text-white text-9xl">
                         X

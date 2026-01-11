@@ -25,7 +25,7 @@ class RoomSeeder extends Seeder
                     'size_sqm' => 25,
                     'bed_type' => 'Single',
                     'count' => 1,
-                    'image' => 'hotels/room1.jpg',
+                    'image' => 'images/hotels/room1.jpg',
                 ],
                 [
                     'room_type' => 'Deluxe Double',
@@ -35,7 +35,7 @@ class RoomSeeder extends Seeder
                     'size_sqm' => 35,
                     'bed_type' => 'King',
                     'count' => 1,
-                    'image' => 'hotels/room2.jpg',
+                    'image' => 'images/hotels/room2.jpg',
                 ],
                 [
                     'room_type' => 'Suite',
@@ -45,7 +45,7 @@ class RoomSeeder extends Seeder
                     'size_sqm' => 60,
                     'bed_type' => 'King',
                     'count' => 1,
-                    'image' => 'hotels/room3.jpg',
+                    'image' => 'images/hotels/room3.jpg',
                 ],
                 [
                     'room_type' => 'Family Room',
@@ -55,7 +55,7 @@ class RoomSeeder extends Seeder
                     'size_sqm' => 45,
                     'bed_type' => 'Queen',
                     'count' => 1,
-                    'image' => 'hotels/room4.jpg',
+                    'image' => 'images/hotels/room4.jpg',
                 ],
             ];
 

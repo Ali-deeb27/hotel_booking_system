@@ -35,7 +35,7 @@
                         @foreach($hotelRooms as $room)
                             <div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
                                 @if($room->image)
-                                    <img src="{{ asset('storage/' . $room->image) }}" alt="{{ $room->room_number }}" class="w-full h-48 object-cover">
+                                    <img src="{{ asset( $room->image) }}" alt="{{ $room->room_number }}" class="w-full h-48 object-cover">
                                 @else
                                     <div class="w-full h-48 bg-gray-300 flex items-center justify-center text-white text-5xl">
                                         X

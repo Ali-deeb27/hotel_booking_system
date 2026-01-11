@@ -24,7 +24,7 @@ class HotelSeeder extends Seeder
                 'latitude' => 25.7617,
                 'longitude' => -80.1918,
                 'is_active' => true,
-                'image' => 'hotels/hotel1.jpg',
+                'image' => 'images/hotels/hotel1.jpg',
             ],
             [
                 'name' => 'Urban City Hotel',
@@ -40,7 +40,7 @@ class HotelSeeder extends Seeder
                 'latitude' => 40.7128,
                 'longitude' => -74.0060,
                 'is_active' => true,
-                'image' => 'hotels/hotel2.jpg',
+                'image' => 'images/hotels/hotel2.jpg',
             ],
             [
                 'name' => 'Mountain View Lodge',
@@ -56,7 +56,7 @@ class HotelSeeder extends Seeder
                 'latitude' => 39.1911,
                 'longitude' => -106.8175,
                 'is_active' => true,
-                'image' => 'hotels/hotel3.jpg',
+                'image' => 'images/hotels/hotel3.jpg',
             ],
             [
                 'name' => 'Riverside Inn',
@@ -72,7 +72,7 @@ class HotelSeeder extends Seeder
                 'latitude' => 45.5152,
                 'longitude' => -122.6784,
                 'is_active' => true,
-                'image' => 'hotels/hotel4.jpg',
+                'image' => 'images/hotels/hotel4.jpg',
             ],
         ];
 

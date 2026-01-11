@@ -71,7 +71,7 @@
         @forelse($hotels as $hotel)
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                 @if($hotel->image)
-                    <img src="{{ asset('storage/' . $hotel->image) }}" alt="{{ $hotel->name }}" class="w-full h-48 object-cover">
+                    <img src="{{ asset( $hotel->image) }}" alt="{{ $hotel->name }}" class="w-full h-48 object-cover">
                 @else
                     <div class="w-full h-48 bg-gray-300 flex items-center justify-center text-white text-6xl">
                         X
